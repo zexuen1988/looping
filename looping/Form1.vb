@@ -17,6 +17,6 @@
         For x = 0 To 6
             LstAnswer.Items.Add(strNamaHari(x))
         Next
-
+        Form2.Show()
     End Sub
 End Class
