@@ -14,8 +14,8 @@
         strNamaHari(5) = "Jumaat"
         strNamaHari(6) = "Sabtu"
         Array.Reverse(strNamaHari)
-        For x = 0 To 6
-            LstAnswer.Items.Add(strNamaHari(x))
+        For i = 0 To 6
+            LstAnswer.Items.Add(strNamaHari(i))
         Next
         Form2.Show()
     End Sub
